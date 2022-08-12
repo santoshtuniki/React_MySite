@@ -6,6 +6,10 @@ body {
   /* background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png"); */
 }
 
+section {
+	margin-top: 20px;
+}
+
 .profile-img {
 	height:250px;
 	width: 250px;
@@ -17,8 +21,9 @@ body {
 	margin: 3px 5px 10px;
 }
 
-hr {
-	border-width: 0;
+.title {
+	font-size: 26px;
+	background-color: #6BBED4;
 }
 
 /* About-me Section */
@@ -41,6 +46,21 @@ hr {
 	border-radius: 20px;
 	padding: 5px;
 }
+
+/* Skills Section  */
+
+.ability {
+	height: 120px;
+	width: 120px;
+	margin-right: 25px;
+	text-align: left;
+	border-radius: 100%;
+}
+
+.skillz {
+	padding: 10px;
+}
+
 /* Footer Section */
 
 .contact {
