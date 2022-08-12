@@ -9,14 +9,7 @@ function Topbar() {
   return (
 	<Navbar bg="dark" expand="lg" variant="dark" fixed="top">
 		<Container fluid>
-			<Navbar.Brand href="/">
-			<img
-			src={Logo}
-			alt="logo"
-			className="d-inline-block align-top"
-			/>
-			Santosh
-			</Navbar.Brand>
+			<Navbar.Brand href="/">Saisantoshkumar Tuniki</Navbar.Brand>
 			<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 			<Navbar.Collapse id="responsive-navbar-nav">
 			<Nav className="ms-auto">
