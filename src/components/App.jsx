@@ -4,6 +4,7 @@ import Topbar from "./Navbar/Navbar";
 import About_me from "./About-me";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Education  from "./Education";
 import Footer from "./Footer";
 
 import "../styles.css";
@@ -15,6 +16,7 @@ function App() {
 			<About_me />
 			<Skills />
 			<Projects />
+			<Education />
 			<Footer />
 		</div>
 	);

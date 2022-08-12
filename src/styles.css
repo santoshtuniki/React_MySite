@@ -2,6 +2,7 @@ body {
 	text-align: center;
 	background-color: #BDE5E1;
 	margin: 0;
+	font-size: 18px;
 	background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
   /* background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png"); */
 }
@@ -41,7 +42,6 @@ section {
 .about {
 	display:flex;
 	justify-content: center;
-	font-size: 18px;
 	margin: 4% 15% 1%;
 	border-radius: 20px;
 	padding: 20px;
@@ -75,6 +75,42 @@ section {
 	text-align: left;
 }
 
+/* Education Section  */
+
+.institute {
+	background-color: #59A9B5;
+	margin: 3% 14% ;
+	padding: 20px;
+	border-radius:  20px;
+	text-align: left;
+}
+
+.years {
+	position: relative;
+	left: 10px;	
+	font-weight: normal;
+}
+
+.ed {
+	height: 120px;
+	width: 120px;
+	margin: 10px 20px;
+	border-radius: 100%;
+}
+
+.sect {
+	display:flex;
+	justify-content: left;
+	margin: 1%;
+	border-radius: 20px;
+}
+
+.sect2 {
+	display:flex;
+	justify-content: right;
+	margin: 1%;
+	border-radius: 20px;
+}
 
 /* Footer Section */
 
@@ -83,7 +119,24 @@ section {
 }
 
 
-/* .App {
-  font-family: sans-serif;
-  text-align: center;
-} */
+@media only screen and (max-width: 768px) {
+
+	.profile-img {
+		height: 200px;
+		width: 180px;
+		margin: 30px auto 10px;
+		border-radius:  20px;
+	}
+
+	.institute{
+		margin: 0;
+		border-radius: 0;
+	}
+
+	.about {
+		margin: 0;
+		display: block;
+		justify-content:left;
+	}
+
+}

@@ -7,7 +7,7 @@ function About_me() {
 	<section id="about_me">
 		<div className="about">
 				<img className="profile-img" src={profile} alt="santosh-img" />
-				<div className="content">
+				<div>
 					<h2>
 						<img className="icon" src={user} alt="user-img" />
 						About me
