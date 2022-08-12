@@ -7,6 +7,7 @@ import Projects from "./Projects";
 import Education  from "./Education";
 import Certification from "./Certification";
 import Achievements from "./Achievements";
+import Interests from "./Interests";
 import Footer from "./Footer";
 
 import "../styles.css";
@@ -21,6 +22,7 @@ function App() {
 			<Education />
 			<Certification />
 			<Achievements />
+			<Interests />
 			<Footer />
 		</div>
 	);

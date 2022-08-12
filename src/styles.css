@@ -139,10 +139,23 @@ section {
 	text-align: left;
 }
 
-/* Footer Section */
-.contact {
-	margin: 5px 10px;
+/* Interests Section  */
+.games {
+	height: 220px;
+	width: 240px;
+	margin: 2% 3%;
 }
+
+/* Footer Section */
+#footer {
+	padding: 0 1% 1%;
+}
+
+.contact {
+	margin: 5px 15px;
+}
+
+	/* ******************************************************************************* */
 
 /* @media command */
 @media only screen and (max-width: 768px) {
