@@ -1,4 +1,19 @@
-.App {
+body {
+  text-align: center;
+	background-color: #BDE5E1;
+	margin: 0;
+	background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png"); */
+}
+
+/* Footer Section */
+
+.contact {
+	margin: 5px 10px;
+}
+
+
+/* .App {
   font-family: sans-serif;
   text-align: center;
-}
+} */
