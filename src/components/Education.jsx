@@ -14,7 +14,7 @@ function Education() {
 			<div className="institute">
 				<div className="sect">
 					<img className="ed" src={IIT} alt="IIT Patna-img" />
-					<div className="">
+					<div className="content">
 						<p className="heading">
 							Indian Institute of Technology Patna | Bihta, Bihar 
 							<span className="years">2018 - 2022</span>
@@ -23,8 +23,8 @@ function Education() {
 						<p>CGPA: 7.85 / 10</p>
 					</div>
 				</div>
-				<div className="sect2">
-					<div>
+				<div className="memo">
+					<div className="content">
 						<p className="heading">
 							Sri Chaitanya Juinor Kalasala | Hyd, Telangana
 							<span className="years">2016 - 2018</span>
@@ -36,7 +36,7 @@ function Education() {
 				</div>
 				<div className="sect">
 					<img className="ed" src={Manasa} alt="Manasa School-img" />
-					<div>
+					<div className="content">
 						<p className="heading">
 							Manasa High School | Jagtial, Telangana
 							<span className="years">2015 - 2026</span>

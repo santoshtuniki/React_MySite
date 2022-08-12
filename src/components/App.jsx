@@ -5,6 +5,7 @@ import About_me from "./About-me";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Education  from "./Education";
+import Certification from "./Certification";
 import Achievements from "./Achievements";
 import Footer from "./Footer";
 
@@ -18,6 +19,7 @@ function App() {
 			<Skills />
 			<Projects />
 			<Education />
+			<Certification />
 			<Achievements />
 			<Footer />
 		</div>

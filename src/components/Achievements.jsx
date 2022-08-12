@@ -1,11 +1,9 @@
 import React from "react";
-import Achievement from "./images/icons/certificate.png";
 
 function Achievements() {
 	return (
 		<section id="achievements">
 			<h2 className="title">
-				<img  className="icon" src={Achievement} alt="achievements-img" />
 				Achievements
 			</h2>
 			<div className="accomplishments">

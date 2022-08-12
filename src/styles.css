@@ -33,7 +33,6 @@ section {
 }
 
 /* About-me Section */
-
 #about_me {
 	background-color: #59A9B5;
 	padding: 5px;
@@ -53,7 +52,6 @@ section {
 }
 
 /* Skills Section  */
-
 .ability {
 	height: 120px;
 	width: 120px;
@@ -67,16 +65,18 @@ section {
 }
 
 /* Projects Section  */
-
 .works {
 	background-color: #59A9B5;
 	margin: 0;
-	padding: 20px 5%;
+	padding: 20px 6%;
 	text-align: left;
 }
 
-/* Education Section  */
+.projectz {
+	margin-bottom: 1%;
+}
 
+/* Education Section  */
 .institute {
 	background-color: #59A9B5;
 	margin: 2% 14% ;
@@ -94,7 +94,7 @@ section {
 .ed {
 	height: 120px;
 	width: 120px;
-	margin: 10px 20px;
+	margin: 10px;
 	border-radius: 100%;
 }
 
@@ -102,18 +102,37 @@ section {
 	display:flex;
 	justify-content: left;
 	margin: 1%;
-	border-radius: 20px;
 }
 
-.sect2 {
-	display:flex;
+.content {
+	margin: 1% 0;
+}
+
+/* Certication Section  */
+.portfolio {
+	height: 200px;
+	width: 280px;
+	margin: 10px 20px;
+}
+
+.certificatez {
+	background-color: #59A9B5;
+	margin: 0;
+	padding: 20px 20% 20px 8%;
+	text-align: left;
+}
+
+.memo {
+	display: flex;
 	justify-content: right;
 	margin: 1%;
-	border-radius: 20px;
+}
+
+.contentz {
+	margin: auto 10% auto 6%;
 }
 
 /* Achievements Section  */
-
 .accomplishments {
 	margin: 2% 5%;
 	padding: 20px;
@@ -121,24 +140,23 @@ section {
 }
 
 /* Footer Section */
-
 .contact {
 	margin: 5px 10px;
 }
 
-
+/* @media command */
 @media only screen and (max-width: 768px) {
 
+	body {
+		font-size: 14px;
+	}
+
+	/* About-me Section */
 	.profile-img {
 		height: 200px;
 		width: 180px;
 		margin: 30px auto 10px;
 		border-radius:  20px;
-	}
-
-	.institute{
-		margin: 0;
-		border-radius: 0;
 	}
 
 	.about {
@@ -147,4 +165,37 @@ section {
 		justify-content:left;
 	}
 
+	/* Education Section  */
+	.institute{
+		margin: 0;
+		border-radius: 0;
+	}
+
+	/* Certification Section  */
+	.memo {
+		display: flex;
+		justify-content: left;
+		border-radius: 20px;
+		margin: 1%;
+	}
+
+	.portfolio {
+		height: 140px;
+		width: 180px;
+		margin: 10px 20px;
+	}
+
+	.certificatez {
+		padding: 20px;
+	}
+
+	.contentz {
+		margin: 0;
+	}
+
+	/* Achievements Section  */
+	.accomplishments {
+		margin: 2%;
+		padding: 10px;
+	}
 }
