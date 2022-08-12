@@ -18,12 +18,17 @@ section {
 }
 
 .icon {
-	margin: 3px 5px 10px;
+	margin: 10px 5px ;
 }
 
 .title {
 	font-size: 26px;
 	background-color: #6BBED4;
+}
+
+.heading {
+	font-weight: bold;
+	margin-right: 10px;
 }
 
 /* About-me Section */
@@ -37,7 +42,7 @@ section {
 	display:flex;
 	justify-content: center;
 	font-size: 18px;
-	margin: 6% 15% 0;
+	margin: 4% 15% 1%;
 	border-radius: 20px;
 	padding: 20px;
 }
@@ -52,7 +57,7 @@ section {
 .ability {
 	height: 120px;
 	width: 120px;
-	margin-right: 25px;
+	margin: 10px;
 	text-align: left;
 	border-radius: 100%;
 }
@@ -60,6 +65,16 @@ section {
 .skillz {
 	padding: 10px;
 }
+
+/* Projects Section  */
+
+.works {
+	background-color: #59A9B5;
+	margin: 0;
+	padding: 20px 5%;
+	text-align: left;
+}
+
 
 /* Footer Section */
 

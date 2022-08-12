@@ -3,6 +3,7 @@ import React from "react";
 import Topbar from "./Navbar/Navbar";
 import About_me from "./About-me";
 import Skills from "./Skills";
+import Projects from "./Projects";
 import Footer from "./Footer";
 
 import "../styles.css";
@@ -13,6 +14,7 @@ function App() {
 			<Topbar />
 			<About_me />
 			<Skills />
+			<Projects />
 			<Footer />
 		</div>
 	);
