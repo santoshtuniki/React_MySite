@@ -5,6 +5,7 @@ import About_me from "./About-me";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Education  from "./Education";
+import Achievements from "./Achievements";
 import Footer from "./Footer";
 
 import "../styles.css";
@@ -17,6 +18,7 @@ function App() {
 			<Skills />
 			<Projects />
 			<Education />
+			<Achievements />
 			<Footer />
 		</div>
 	);

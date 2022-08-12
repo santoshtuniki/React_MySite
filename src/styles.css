@@ -79,7 +79,7 @@ section {
 
 .institute {
 	background-color: #59A9B5;
-	margin: 3% 14% ;
+	margin: 2% 14% ;
 	padding: 20px;
 	border-radius:  20px;
 	text-align: left;
@@ -110,6 +110,14 @@ section {
 	justify-content: right;
 	margin: 1%;
 	border-radius: 20px;
+}
+
+/* Achievements Section  */
+
+.accomplishments {
+	margin: 2% 5%;
+	padding: 20px;
+	text-align: left;
 }
 
 /* Footer Section */

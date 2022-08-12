@@ -10,7 +10,7 @@ function Projects() {
 			</h2>
 			<div className="works">
 				<ul>
-					<div className="sect">
+					<div>
 						<li className="heading">TinDog Website</li>
 						<ol>
 							<li>Created the Website using Bootstrap,HTML and CSS.</li>
@@ -19,7 +19,7 @@ function Projects() {
 							<li>Involved card, button, fontawesome to make the website more beautiful.</li>
 						</ol>
 					</div>
-					<div className="sect">
+					<div>
 						<li className="heading">Keeper App</li>
 						<ol>
 							<li>Created the front-end of the app using React.js</li>
@@ -28,7 +28,7 @@ function Projects() {
 							<li>Also involved mapping, spreadOperators to make the code attractive.</li>
 						</ol>
 					</div>
-					<div className="sect">
+					<div>
 						<li className="heading">todoList App</li>
 						<ol>
 							<li>Created the back-end using mongoose</li>
