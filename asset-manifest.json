@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/React_MySite/static/css/main.899ed55c.css",
+    "main.js": "/React_MySite/static/js/main.5bb81ac4.js",
+    "static/media/books.jpg": "/React_MySite/static/media/books.d47758992810e3579e73.jpg",
+    "static/media/chess.jpg": "/React_MySite/static/media/chess.9afabfc871ffa2456dbf.jpg",
+    "static/media/Udemy.jpg": "/React_MySite/static/media/Udemy.a07bed9db0a4bf80b192.jpg",
+    "static/media/chaitanya.png": "/React_MySite/static/media/chaitanya.f97ffb8055383a88ae26.png",
+    "static/media/profile.jpeg": "/React_MySite/static/media/profile.b2b2b5cccdbf90a77980.jpeg",
+    "static/media/react.jpg": "/React_MySite/static/media/react.d6bfcc3151094951d97f.jpg",
+    "static/media/js.jpg": "/React_MySite/static/media/js.942646a73db1707ec437.jpg",
+    "static/media/html.jpg": "/React_MySite/static/media/html.98849ae74b1bff213f71.jpg",
+    "static/media/IIT.jpg": "/React_MySite/static/media/IIT.aacd18a272549faf5364.jpg",
+    "static/media/carrom.jpg": "/React_MySite/static/media/carrom.eb3bfefc2c2392080bc7.jpg",
+    "static/media/css.jpeg": "/React_MySite/static/media/css.1c718aea7e016ad5b8f2.jpeg",
+    "static/media/express.jpg": "/React_MySite/static/media/express.5f55afe999b8f7f7fd86.jpg",
+    "static/media/nodeJS.png": "/React_MySite/static/media/nodeJS.e8eb53cd42cede8f94cc.png",
+    "static/media/mongodb.jpg": "/React_MySite/static/media/mongodb.c689d56ef41fbc807ac7.jpg",
+    "static/media/windows.jpg": "/React_MySite/static/media/windows.29963890afea701418a0.jpg",
+    "index.html": "/React_MySite/index.html",
+    "main.899ed55c.css.map": "/React_MySite/static/css/main.899ed55c.css.map",
+    "main.5bb81ac4.js.map": "/React_MySite/static/js/main.5bb81ac4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.899ed55c.css",
+    "static/js/main.5bb81ac4.js"
+  ]
+}
